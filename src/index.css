@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(/src/assets/fonts/Gilroy-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(/src/assets/fonts/Gilroy-Heavy.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(/src/assets/fonts/Gilroy-Light.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(/src/assets/fonts/Gilroy-Medium.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(/src/assets/fonts/Gilroy-Regular.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  --primary: #03214c;
+  --primary-dark: #0038cc;
+  --secondary: #f0b100;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.primary-bg {
+  background-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary);
+  transition: all 0.5s;
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+body {
+  margin: 0;
+  font-family: "Gilroy", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
