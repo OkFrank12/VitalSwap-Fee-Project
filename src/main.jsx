@@ -7,7 +7,7 @@ import FeePage from "./app/FeePage.jsx";
 
 const Router = createBrowserRouter([
   {
-    path: "/",
+    path: "/VitalSwap-Fee-Project",
     element: <App />,
     children: [{ index: true, element: <FeePage /> }],
   },
