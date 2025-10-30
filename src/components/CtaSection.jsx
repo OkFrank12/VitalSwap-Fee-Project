@@ -2,14 +2,18 @@ import { HiArrowRight } from "react-icons/hi";
 
 export default function CTASection() {
   const teamMembers = [
-    { name: "Sarah Chen", role: "Product Lead", tag: "@sarahc" },
+    { name: "Ona Opemipo", role: "Product Manager", tag: "@onaopemipo" },
     {
       name: "Franklin Andrew",
       role: "Frontend Engineer",
       tag: "@devfranklinandrew",
     },
-    { name: "Priya Patel", role: "Backend Engineer", tag: "@priyap" },
-    { name: "Alex Rivera", role: "Product Designer", tag: "@alexr" },
+    { name: "Chukwudi Nnaji", role: "Backend Engineer", tag: "@chukxman" },
+    {
+      name: "Adedoyin Adewumi",
+      role: "Product Designer",
+      tag: "@toobusytodecide",
+    },
   ];
 
   return (
